@@ -8,10 +8,3 @@ All notable changes to this project will be documented in this file. See [standa
 ### Features
 
 * iOS Podfile support ([a6bb742](https://github.com/nicko170/with-google-ads-mediation-facebook/commit/a6bb74292fb266dc6f06bc5efcef72e7a8c62255))
-
-## 0.1.0 (2021-11-06)
-
-
-### Features
-
-* adding standard-version ([9e6667f](https://github.com/nicko170/with-google-idfa-support/commit/9e6667f6e3bce393d10739bebcd50ca7dd572a03))
