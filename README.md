@@ -1,18 +1,15 @@
-# Expo - `with-google-idfa-support`
+# Expo - `with-google-ads-mediation-facebook`
 
-An [Expo Config Plugin](https://docs.expo.io/guides/config-plugins) to add the GoogleIDFASupport pod to your ios Podfile without ejecting or touching native code.
+An [Expo Config Plugin](https://docs.expo.io/guides/config-plugins) to add the GoogleMobileAdsMediationFacebook pod to your ios Podfile without ejecting or touching native code.
 
-This basically links the AdSupport framework in your project, which in turn lets Google Analytics track conversions!
+This lets you use Facebook Audience Network with Google AdMob mediation.
 
 You can learn more about it here:
-- [Googles documentation on GoogleIDFASupport](https://developers.google.com/analytics/devguides/collection/ios/v3/optional-features)
+- [Google / Facebook Mediation Documentation - iOS](https://developers.google.com/admob/ios/mediation/facebook)
+- [Google / Facebook Mediation Documentation - Android](https://developers.google.com/admob/android/mediation/facebook)
 - [Config Plugins - Expo docs](https://docs.expo.io/guides/config-plugins)
 - Expo Managed Workflow in 2021: [part 1](https://blog.expo.io/expo-managed-workflow-in-2021-5b887bbf7dbb), [part 2](https://blog.expo.io/expo-managed-workflow-in-2021-d1c9b68aa10)
 
-## Getting started
-
-Some points you need to be aware of before use this plugin
-- **This plugin only works on iOS, and does nothing for Android**
 
 ## Installation
 
@@ -24,24 +21,24 @@ Some points you need to be aware of before use this plugin
 #### With `expo install`
 
 ```
-expo install with-google-idfa-support
+expo install with-google-ads-mediation-facebook
 ```
 
 #### Without `expo install`
 
 ```sh
 # using yarn
-yarn add with-google-idfa-support
+yarn add with-google-ads-mediation-facebook
 
 # using npm
-npm install with-google-idfa-support
+npm install with-google-ads-mediation-facebook
 ```
 
 Open your `app.json` or `app.config.js` and update your `plugins` section (`expo install` would do it for you):
 
 ```json
 {
-  "plugins": ["with-google-idfa-support"]
+  "plugins": ["with-google-ads-mediation-facebook"]
 }
 ```
 

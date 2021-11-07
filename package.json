@@ -15,7 +15,10 @@
     "react-native",
     "expo",
     "config-plugins",
-    "GoogleIDFASupport"
+    "GoogleMobileAdsMediationFacebook",
+    "Google",
+    "Mediation",
+    "Facebook"
   ],
   "files": [
     "app.plugin.js",
