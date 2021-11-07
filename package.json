@@ -2,7 +2,7 @@
   "private": false,
   "name": "with-google-ads-mediation-facebook",
   "main": "app.plugin.js",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "An Expo config plugin to add GoogleMobileAdsMediationFacebook Pod into Podfile on Expo EAS, and setup the Android project gradle files",
   "repository": "https://github.com/nicko170/with-google-ads-mediation-facebook",
   "author": "Nick Pratley <nick@npratley.net> (https://github.com/nicko170)",
